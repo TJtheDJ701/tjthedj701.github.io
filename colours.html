@@ -1,0 +1,8 @@
+<script>
+	colors=["red","green","blue","yellow"];
+	var timer=window.setInterval(changeColour, 1);
+	function changeColour() {
+		var n=Math.round(Math.random()*4);
+		document.body.style.backgroundColor=colors[n];
+	}
+</script>
